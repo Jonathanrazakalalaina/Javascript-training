@@ -402,20 +402,20 @@
 
 // ==============================================================
 
-let caractere;
-let NBA;
-function saisie() {
-    caractere = prompt('Entrez une lettre (appuyer sur " * " pour arrêter)');
-}
-NBA = 0;
-do {
-    saisie();
-    if(caractere === 'a') {
-        NBA += 1;
-    }
-} while (caractere != '*');
+// let caractere;
+// let NBA;
+// function saisie() {
+//     caractere = prompt('Entrez une lettre (appuyer sur " * " pour arrêter)');
+// }
+// NBA = 0;
+// do {
+//     saisie();
+//     if(caractere === 'a') {
+//         NBA += 1;
+//     }
+// } while (caractere != '*');
 
-alert(`La lettre "a" est apparue ${NBA} fois !`);
+// alert(`La lettre "a" est apparue ${NBA} fois !`);
 
 // ==============================================================
 
@@ -437,6 +437,19 @@ alert(`La lettre "a" est apparue ${NBA} fois !`);
 // z = typeof(bin)
 // alert(result.join(''));
 
+
+// ==============================================================
+
+let a, i;
+a = 64;
+i = 0;
+
+while (i <= (a/2)) {
+    i += 2;
+    if(a === i*i) {
+        alert(`La racine carrée de ${a} est ${i}`);
+    }
+}
 
 
 
